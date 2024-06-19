@@ -1,0 +1,64 @@
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.bg-color{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter:invert(1)
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.m-1{
+    margin: 4px ;
+}
+
+.rounded{
+    border-radius: 8px;
+}
+
+.p-1{
+    padding: 25px;
+}
+
+/* Works in Firefox */
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333; /* Change this to the background color of your website */
+    border-radius: 8px; /* Adjust the border radius as needed */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555; /* Change this to the color you want for the scrollbar */
+    border-radius: 8px; /* Adjust the border radius as needed */
+}
+
+/* Works in Chrome, Edge, and Safari */
+/* Track */
+::-webkit-scrollbar {
+    width: 10px; /* You can adjust the width of the scrollbar */
+    background: #333; /* Change this to the background color of your website */
+    border-radius: 8px; /* Adjust the border radius as needed */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555; /* Change this to the color you want for the scrollbar */
+    border-radius: 8px; /* Adjust the border radius as needed */
+}
